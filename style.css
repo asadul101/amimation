@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: url('/images/Sun_in_Milky_Way-1.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+.naptune_1 {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: sol 8s infinite linear;
+}
+@keyframes sol {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.naptune_2 {
+    width: 80px;
+    height:80px;
+    border: 2px solid burlywood;
+    border-radius: 50%;
+    background-color: burlywood;
+    position: absolute;
+    top: 106px;
+    left: 260px;
+    animation: first_round 1s;
+}
+.naptune_3 {
+    width: 1250px;
+    height: 1250px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_4 {
+    width:70px;
+    height:70px;
+    border: 2px solid coral;
+    border-radius: 50%;
+    background-color: coral;
+    position: absolute;
+    top: 106px;
+    left: 192px;
+    animation: first_round 1s;
+}
+.naptune_5 {
+    width:1050px;
+    height: 1050px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_6 {
+    width:60px;
+    height:60px;
+    border: 2px solid #e2d58d;
+    border-radius: 50%;
+    background-color: #e2d58d;
+    position: absolute;
+    top: 51px;
+    left: 192px;
+    animation: first_round 1s;
+}
+.naptune_7 {
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_8 {
+    width:50px;
+    height:50px;
+    border: 2px solid lawngreen;
+    border-radius: 50%;
+    background-color: lawngreen;
+    position: absolute;
+    top: 67px;
+    left: 124px;
+    animation: first_round 1s;
+}
+.naptune_9 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_10 {
+    width:40px;
+    height:40px;
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 44px;
+    left: 124px;
+    animation: first_round 1s;
+}
+.naptune_11 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_12 {
+    width:30px;
+    height:30px;
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 18px;
+    left: 124px;
+    animation: first_round 1s;
+}
+.naptune_13 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_14 {
+    width:25px;
+    height:25px;
+    border: 2px solid #123131;
+    border-radius: 50%;
+    background-color: #123131;
+    position: absolute;
+    top: 5px;
+    left: 124px;
+    animation: first_round 1s;
+}
+.naptune_15 {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naptune_16 {
+    width:20px;
+    height:20px;
+    border: 2px solid ghostwhite;
+    border-radius: 50%;
+    background-color: gainsboro;
+    position: absolute;
+    top: 9px;
+    left: 76px;
+    animation: first_round 1s;
+}
+.sun  {
+    width: 180px;
+    height: 180px;
+    border: 3px solid yellow;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: first_round 1s linear infinite;
+}
+@keyframes first_round {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
